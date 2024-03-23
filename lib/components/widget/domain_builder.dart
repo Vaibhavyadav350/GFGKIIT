@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:gfg_kiit/components/widget/project_card.dart';
 import 'package:gfg_kiit/components/widget/team_member_avatar.dart';
 
-Scaffold buildScaffold(String webdev,String teamMemberCollection, String projectCollection,String domain) {
+Scaffold buildScaffold(String domainName,String teamMemberCollection, String projectCollection,String domain) {
   return Scaffold(
     appBar: AppBar(
-      title: Text(webdev),
+      title: Text(domainName),
     ),
     body: SingleChildScrollView(
       padding: EdgeInsets.all(20.0),
