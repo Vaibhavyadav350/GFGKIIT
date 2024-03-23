@@ -1,10 +1,10 @@
 
 # GFG KIIT App
 
-<img src="assets/images/gfgapp.png"  style="margin: 5px;"></center>
+<img src="assets/images/gfgapp.png"  width=200 style="margin: 5px;" >
 
 
-Welcome to the Tech Society App! This application serves as a comprehensive platform for all tech enthusiasts, offering a wide range of features tailored to foster collaboration, showcase projects, manage events, and provide valuable resources.
+Welcome to the GFG Society App! This application serves as a comprehensive platform for all tech enthusiasts, offering a wide range of features tailored to foster collaboration, showcase projects, manage events, and provide valuable resources.
 
 ## Features
 
@@ -30,10 +30,15 @@ Connect with like-minded individuals, join teams working on exciting projects, a
 
 ## Screenshots
 
-| Profile Page | Home Page | Admin Panel | App Development Domain Page |
-|--------------|-----------|-------------|-----------------------------|
-| ![Profile Page](assets/images/profile.png) | ![Home Page](assets/images/home.png) | ![Admin Panel](assets/images/admin_panel.png) | ![App Development Domain](assets/images/app_domain.png) |
+| Profile Page | Home Page | Admin Panel |
+|--------------|-----------|-------------|
+| ![Profile Page](assets/ss/profile.jpg) | ![Home Page](assets/ss/home.jpg) | ![Admin Panel](assets/ss/admin.jpg) |
 
+
+
+| Add Member | Add Project | App Development Domain |
+|--------------|-----------|-------------|-----------------------------|
+| ![Add Member](assets/ss/addmember.jpg) | ![Add Project](assets/ss/project.jpg) | ![App Development Domain](assets/ss/appdomain.jpg) |
 The profile page allows users to manage their account settings, view their contributions, and connect with other members of the community.
 
 The home page serves as the central hub of the app, providing quick access to featured projects, upcoming events, and important announcements.
