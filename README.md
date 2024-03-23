@@ -1,6 +1,8 @@
-# Tech Society App
 
-![Tech Society Logo](images/gfg_logo.png)
+# GFG KIIT App
+
+<img src="assets/images/gfgapp.png"  style="margin: 5px;"></center>
+
 
 Welcome to the Tech Society App! This application serves as a comprehensive platform for all tech enthusiasts, offering a wide range of features tailored to foster collaboration, showcase projects, manage events, and provide valuable resources.
 
@@ -42,7 +44,7 @@ Explore the App Development domain page to discover projects, resources, and eve
 
 ### Here are some visually stunning images representing each technology domain:
 
-<kbd><img src="assets/images/aiml.png" alt="AI/ML" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/app.png" alt="App Development" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/blockchain.png" alt="Blockchain" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/core.png" alt="Core Development" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/game.png" alt="Game Development" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/uiux.png" alt="UI/UX Design" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/web.png" alt="Web Development" width="200" style="margin: 5px;"></kbd>
+<kbd><img src="assets/images/aiml.png" alt="AI/ML" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/app.png" alt="App Development" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/blockchain.png" alt="Blockchain" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/core.png" alt="Core Development" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/game.png" alt="Game Development" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/uiux.png" alt="UI/UX Design" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/web.png" alt="Web Development" width="200" style="margin: 5px;"></kbd><kbd><img src="assets/images/cloud.png" alt="Web Development" width="200" style="margin: 5px;"></kbd>
 
 ## Get Started
 
