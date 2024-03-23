@@ -1,7 +1,9 @@
 
 # GFG KIIT App
 
-<img src="assets/images/gfgapp.png"  width=200 style="margin: 5px;" >
+<div style="display: flex; justify-content: center;">
+  <img src="assets/images/gfgapp.png" width="200" style="margin: 5px;">
+</div>
 
 
 Welcome to the GFG Society App! This application serves as a comprehensive platform for all tech enthusiasts, offering a wide range of features tailored to foster collaboration, showcase projects, manage events, and provide valuable resources.
