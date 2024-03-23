@@ -40,32 +40,11 @@ Administrators have access to a dedicated admin panel for managing users, conten
 
 Explore the App Development domain page to discover projects, resources, and events related to mobile app development. Stay updated with the latest tools, frameworks, and best practices in the industry.
 
-
 Here are some visually stunning images representing each technology domain:
 
-Here are some visually stunning images representing each technology domain:
-
-
-  <kbd><img src="assets/images/aiml.png" alt="AI/ML" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
-
-
-  <kbd><img src="assets/images/app.png" alt="App Development" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
-
-
-  <kbd><img src="assets/images/blockchain.png" alt="Blockchain" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
-
-
-  <kbd><img src="assets/images/core.png" alt="Core Development" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
-
-
-  <kbd><img src="assets/images/game.png" alt="Game Development" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
-
-
-  <kbd><img src="assets/images/uiux.png" alt="UI/UX Design" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
-
-
-  <kbd><img src="assets/images/web.png" alt="Web Development" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
-
+| AI/ML | App Development | Blockchain | Core Development | Game Development | UI/UX Design | Web Development |
+|-------|-----------------|------------|------------------|------------------|--------------|-----------------|
+| <kbd><img src="assets/images/aiml.png" alt="AI/ML" width="200" style="border: 1px solid black; margin: 5px;"></kbd> | <kbd><img src="assets/images/app.png" alt="App Development" width="200" style="border: 1px solid black; margin: 5px;"></kbd> | <kbd><img src="assets/images/blockchain.png" alt="Blockchain" width="200" style="border: 1px solid black; margin: 5px;"></kbd> | <kbd><img src="assets/images/core.png" alt="Core Development" width="200" style="border: 1px solid black; margin: 5px;"></kbd> | <kbd><img src="assets/images/game.png" alt="Game Development" width="200" style="border: 1px solid black; margin: 5px;"></kbd> | <kbd><img src="assets/images/uiux.png" alt="UI/UX Design" width="200" style="border: 1px solid black; margin: 5px;"></kbd> | <kbd><img src="assets/images/web.png" alt="Web Development" width="200" style="border: 1px solid black; margin: 5px;"></kbd> |
 
 ## Get Started
 
