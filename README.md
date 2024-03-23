@@ -45,25 +45,25 @@ Here are some visually stunning images representing each technology domain:
 
 Here are some visually stunning images representing each technology domain:
 
-- **AI/ML**
+
   <kbd><img src="assets/images/aiml.png" alt="AI/ML" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
 
-- **App Development**
+
   <kbd><img src="assets/images/app.png" alt="App Development" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
 
-- **Blockchain**
+
   <kbd><img src="assets/images/blockchain.png" alt="Blockchain" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
 
-- **Core Development**
+
   <kbd><img src="assets/images/core.png" alt="Core Development" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
 
-- **Game Development**
+
   <kbd><img src="assets/images/game.png" alt="Game Development" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
 
-- **UI/UX Design**
+
   <kbd><img src="assets/images/uiux.png" alt="UI/UX Design" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
 
-- **Web Development**
+
   <kbd><img src="assets/images/web.png" alt="Web Development" width="200" style="border: 1px solid black; margin: 5px;"></kbd>
 
 
