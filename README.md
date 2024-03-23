@@ -36,9 +36,11 @@ Connect with like-minded individuals, join teams working on exciting projects, a
 
 
 
-| Add Member | Add Project | App Development Domain |
-|--------------|-----------|-------------|-----------------------------|
-| ![Add Member](assets/ss/addmember.jpg) | ![Add Project](assets/ss/project.jpg) | ![App Development Domain](assets/ss/appdomain.jpg) |
+| Add Member | Add Project | Domains Page |
+|--------------|-----------|-------------|
+| ![Add Member](assets/ss/addmember.jpg) | ![Add Project](assets/ss/project.jpg) | ![Domain Page](assets/ss/appdomain.jpg) |
+
+
 The profile page allows users to manage their account settings, view their contributions, and connect with other members of the community.
 
 The home page serves as the central hub of the app, providing quick access to featured projects, upcoming events, and important announcements.
