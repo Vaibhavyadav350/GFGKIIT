@@ -2,8 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:motion_toast/motion_toast.dart';
-
-import '../components/vybutton_.dart';
+import '../components/vybutton.dart';
 import '../components/vytext.dart';
 
 class HackathonDetailsPage extends StatefulWidget {

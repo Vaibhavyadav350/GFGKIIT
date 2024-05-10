@@ -23,6 +23,8 @@ dependencies:
   image: ^4.1.3
   url_launcher: ^6.0.10
   motion_toast: ^2.8.0
+  pdf_manipulator: ^0.5.9
+  pick_or_save: ^2.2.4
 
 
 dev_dependencies:
