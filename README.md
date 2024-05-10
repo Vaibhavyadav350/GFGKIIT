@@ -2,7 +2,7 @@
 # GFG KIIT App
 
 <p align="center">
- <img src="assets/images/gfgapp.png" width="200" style="margin: 5px; border-radius: 50%;">
+ <img src="assets/logo/logowithoutbg.png" width="200" style="margin: 5px; border-radius: 50%;">
 </p>
 
 - ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
