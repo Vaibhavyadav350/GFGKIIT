@@ -16,17 +16,17 @@ class Login extends StatelessWidget {
         return;
       }
       final GoogleSignInAuthentication googleAuth =
-          await googleUser.authentication;
-      if (!googleUser.email.endsWith('@kiit.ac.in')) {
-        print('galat email hai you are not lovable KIITIAN');
-        return;
-      }
+      await googleUser.authentication;
+      // if (!googleUser.email.endsWith('@kiit.ac.in')) {
+      //   print('galat email hai you are not lovable KIITIAN');
+      //   return;
+      // }
       final credential = GoogleAuthProvider.credential(
         accessToken: googleAuth.accessToken,
         idToken: googleAuth.idToken,
       );
       final UserCredential userCredential =
-          await _auth.signInWithCredential(credential);
+      await _auth.signInWithCredential(credential);
       final User? user = userCredential.user;
       if (user == null) {
         print('Firebase nama kardiya');
@@ -41,7 +41,7 @@ class Login extends StatelessWidget {
       }
 
       final emailDoc =
-          await _firestore.collection('StudentInfo').doc(user.uid).get();
+      await _firestore.collection('StudentInfo').doc(user.uid).get();
       if (!emailDoc.exists) {
         await _firestore.collection('StudentInfo').doc(user.uid).set({
           'kiitemail': user.email,
@@ -74,7 +74,7 @@ class Login extends StatelessWidget {
             SizedBox(height: 80),
             Center(
               child: Image.asset(
-                'assets/images/bglogin.png',
+                'assets/logo/logowithoutbg.png',
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height / 2,
                 fit: BoxFit.contain,
