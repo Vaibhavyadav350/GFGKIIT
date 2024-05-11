@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:gfg_kiit/home/aboutgfg.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
@@ -17,10 +18,10 @@ class Login extends StatelessWidget {
       }
       final GoogleSignInAuthentication googleAuth =
       await googleUser.authentication;
-      // if (!googleUser.email.endsWith('@kiit.ac.in')) {
-      //   print('galat email hai you are not lovable KIITIAN');
-      //   return;
-      // }
+      if (!googleUser.email.endsWith('@kiit.ac.in')) {
+        print('galat email hai you are not lovable KIITIAN');
+        return;
+      }
       final credential = GoogleAuthProvider.credential(
         accessToken: googleAuth.accessToken,
         idToken: googleAuth.idToken,
@@ -64,7 +65,7 @@ class Login extends StatelessWidget {
               Color.fromRGBO(4, 69, 46, 1),
               Color.fromRGBO(0, 42, 58, 1),
             ],
-            center: Alignment.center,
+            center: Alignment.topLeft,
             radius: 0.5,
           ),
         ),
@@ -82,37 +83,55 @@ class Login extends StatelessWidget {
             ),
             SizedBox(height: 80),
             Flexible(
-              child: Center(
-                child: SizedBox(
-                  height: 50,
-                  width: 250,
-                  child: ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      elevation: 3,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(5.0)),
-                      minimumSize: Size(300, 60),
-                    ),
-                    onPressed: () {
-                      _handleSignIn();
-                    },
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Image.asset(
-                          "assets/images/Group 13.png",
-                          fit: BoxFit.cover,
+              child: Column(
+                children: [
+                  Center(
+                    child: SizedBox(
+                      height: 50,
+                      width: 250,
+                      child: ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          elevation: 3,
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(5.0)),
+                          minimumSize: Size(300, 60),
                         ),
-                        Text(
-                          '   Login',
-                          style: TextStyle(color: Colors.black),
+                        onPressed: () {
+                          _handleSignIn();
+                        },
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Image.asset(
+                              "assets/images/Group 13.png",
+                              fit: BoxFit.cover,
+                            ),
+                            Text(
+                              '   Login',
+                              style: TextStyle(color: Colors.black),
+                            ),
+                          ],
                         ),
-                      ],
+                      ),
                     ),
                   ),
-                ),
+                  SizedBox(height: 10,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      const Text('Login as ',style: TextStyle(color: Colors.black),),
+                      GestureDetector(
+                          onTap:(){
+                            Navigator.of(context).push(
+                              MaterialPageRoute(builder: (context) => AboutGFG()),
+                            );
+                          },
+                          child: const Text('Guest User',style: TextStyle(color: Colors.blue),)),
+                    ],
+                  ),
+                ],
               ),
-            )
+            ),
           ],
         ),
       ),

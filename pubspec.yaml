@@ -1,5 +1,5 @@
 name: gfg_kiit
-description: A new Flutter project.
+description: GFG KIIT App
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -25,6 +25,7 @@ dependencies:
   motion_toast: ^2.8.0
   pdf_manipulator: ^0.5.9
   pick_or_save: ^2.2.4
+  webview_flutter: ^2.0.7
 
 
 dev_dependencies:

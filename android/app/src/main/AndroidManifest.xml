@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gfg_kiit">
+    package="com.vaibhav.gfg_kiit">
    <application
         android:label="GFG KIIT"
         android:name="${applicationName}"

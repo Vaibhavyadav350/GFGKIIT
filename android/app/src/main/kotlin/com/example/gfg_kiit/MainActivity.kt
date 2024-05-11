@@ -1,4 +1,4 @@
-package com.example.gfg_kiit
+package com.vaibhav.gfg_kiit
 
 import io.flutter.embedding.android.FlutterActivity
 
