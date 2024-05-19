@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
 
 import '../components/vycontainers.dart';
-import '../components/widget/appbarbox.dart';
+import '../components/widget/appbarbox.dart';\
+import 'package:firebase_auth/firebase_auth.dart';
 
 
 
 class ProfilePage extends StatelessWidget {
   var height, width;
+
+  User? user = FirebaseAuth.instance.currentUser;
+
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +40,8 @@ class ProfilePage extends StatelessWidget {
                           children: [
                             CircleAvatar(
                               radius: 50,
-                              backgroundImage: AssetImage('assets/images/cat.png'),
+                              backgroundImage: user?.photoURL != null
+                              ? NetworkImage(user!.photoURL!) : AssetImage('assets/images/cat.png'),
                             ),
                             Positioned(
                               bottom: -10,
@@ -54,10 +59,10 @@ class ProfilePage extends StatelessWidget {
                       Center(
                         child: ListTile(
                           leading: Icon(Icons.person, color: Colors.green),
-                          title: Text('Vaibhav Yadav', style: TextStyle(color: Colors.green)),
-                          subtitle: Text('21052123@kiit.ac.in', style: TextStyle(color: Colors.green)),
+                          title: Text(user?.displayName??'Guest User', style: TextStyle(color: Colors.green)),
+                          subtitle: Text(user?.email??'No-Email', style: TextStyle(color: Colors.green)),
                           onTap: () {
-                            _showEditBottomSheet(context, 'Name', 'John Doe');
+                            _showEditBottomSheet(context, 'Name', user?.displayName??'Guest User');
                           },
                         ),
                       ),
