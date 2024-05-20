@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../components/vycontainers.dart';
 import '../components/widget/appbarbox.dart';
-
+import 'package:firebase_auth/firebase_auth.dart';
 
 
 class ProfilePage extends StatelessWidget {
@@ -169,7 +169,7 @@ class ProfilePage extends StatelessWidget {
                   SizedBox(height: 20),
                   ElevatedButton(
             
-                    onPressed: () {
+                    onPressed: () async { await FirebaseAuth.instance.signOut();
             
                     },
                     child: Text('Logout',),
